@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi espacio universitario</title>
+</head>
+<body>
+
+<header>
+    <h1>Mi espacio universitario</h1>
+    <p>Un espacio para conocer mi proceso de formación como futuro profesional.</p>
+</header>
+
+<nav>
+    <a href="#sobre-mi">Sobre mí</a> |
+    <a href="#intereses">Intereses</a> |
+    <a href="#multimedia">Multimedia</a> |
+    <a href="#horario">Horario</a> |
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<hr>
+
+<main>
+    <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>Mi nombre es <strong>Darwin Valencia</strong> y estudio <em>Ingeniería de Sistemas</em>.</p>
+        <p>Actualmente curso <mark>Fundamentos WEB</mark> y estoy aprendiendo a construir páginas utilizando HTML.</p>
+
+        <p>Estoy aprendiendo <abbr title="HyperText Markup Language">HTML</abbr>.</p>
+        <p>Una expresión matemática puede escribirse como x<sup>2</sup>.</p>
+        <p>La fórmula química del agua es H<sub>2</sub>O.</p>
+        <p><small>Este sitio fue creado únicamente con HTML5, sin CSS ni JavaScript.</small></p>
+        <p>Antes: <del>no conocía HTML</del>. Ahora: <ins>puedo crear una estructura web básica</ins>.</p>
+    </section>
+
+    <section id="intereses">
+        <h2>Mis intereses académicos</h2>
+
+        <h3>Intereses</h3>
+        <ul>
+            <li>Desarrollo de software</li>
+            <li>Inteligencia artificial</li>
+            <li>Desarrollo web</li>
+            <li>Bases de datos</li>
+        </ul>
+
+        <h3>Tecnologías que quiero aprender</h3>
+        <ol>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>C#</li>
+            <li>Python</li>
+        </ol>
+
+        <h3>Definiciones</h3>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Lenguaje utilizado para estructurar y dar significado al contenido de una página web.</dd>
+
+            <dt>CSS</dt>
+            <dd>Lenguaje utilizado para definir la presentación y apariencia visual de una página web.</dd>
+
+            <dt>JavaScript</dt>
+            <dd>Lenguaje de programación utilizado para agregar funcionalidad interactiva a las páginas web.</dd>
+        </dl>
+    </section>
+
+    <section>
+        <h2>Citas y referencias</h2>
+        <blockquote cite="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax">
+        </blockquote>
+        <p>Fuente: <cite>MDN Web Docs</cite></p>
+    </section>
+
+    <section>
+        <h2>Enlaces útiles</h2>
+        <ul>
+            <li><a href="https://developer.mozilla.org/" target="_blank">MDN Web Docs</a></li>
+            <li><a href="https://www.w3schools.com/html/" target="_blank">W3Schools HTML</a></li>
+            <li><a href="https://html.spec.whatwg.org/" target="_blank">HTML Living Standard</a></li>
+        </ul>
+        <p><a href="mailto:estudiante@ejemplo.com">Enviar correo</a></p>
+    </section>
+
+    <section id="multimedia">
+        <h2>Imágenes y multimedia</h2>
+
+        <figure>
+            <img src="multimedia/imagen1.jpg" alt="Imagen relacionada con la vida universitaria" width="400">
+            <figcaption>Imagen 1:Clase de programacion el semestre pasado.</figcaption>
+        </figure>
+
+        <figure>
+            <img src="multimedia/imagen2.jpg" alt="Imagen relacionada con tecnología y programación" width="400">
+            <figcaption>Imagen 2:Imagen de cuando estaba en primer semestre.</figcaption>
+        </figure>
+
+        <h3>Audio</h3>
+        <audio controls>
+            <source src="multimedia/audio.mp3" type="audio/mpeg">
+            Su navegador no soporta audio HTML5.
+        </audio>
+
+        <h3>Video</h3>
+        <video controls width="500">
+            <source src="multimedia/video.mp4" type="video/mp4">
+            Su navegador no soporta video HTML5.
+        </video>
+
+        <h3>Recurso externo</h3>
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/UB1O30fR-EE"
+            title="Introducción a HTML"
+            allowfullscreen>
+        </iframe>
+
+        <p><strong>Diferencia:</strong> <code>&lt;video&gt;</code> reproduce un archivo de video local o permitido dentro de la página, mientras que <code>&lt;iframe&gt;</code> permite insertar otro recurso o documento externo dentro de la página.</p>
+    </section>
+
+    <section id="horario">
+        <h2>Horario académico</h2>
+        <table border="1">
+            <caption>Horario académico</caption>
+            <thead>
+                <tr>
+                    <th>Asignatura</th>
+                    <th>Día</th>
+                    <th>Hora</th>
+                    <th>Modalidad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>principios de economia</td>
+                    <td>Lunes</td>
+                    <td>7:00a.m.</td>
+                    <td>Virtual</td>
+                </tr>
+                <tr>
+                    <td>Calculo integral</td>
+                    <td>Martes</td>
+                    <td>7:00 a. m.</td>
+                    <td>Virtual</td>
+                </tr>
+                <tr>
+                    <td>Fisica</td>
+                    <td>Miércoles</td>
+                    <td>7:00 a. m.</td>
+                    <td>Virtual</td>
+                </tr>
+                <tr>
+                    <td>Fundamentos web</td>
+                    <td>Jueves</td>
+                    <td>7:00 a. m.</td>
+                    <td>Virtual</td>
+                </tr>
+                <tr>
+                    <td>Bases de Datos</td>
+                    <td>Viernes</td>
+                    <td>10:00 a. m.</td>
+                    <td>Virtual</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="contacto">
+        <h2>Formulario de contacto</h2>
+
+        <form>
+            <fieldset>
+                <legend>Información académica</legend>
+
+                <p>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                </p>
+
+                <p>
+                    <label for="correo">Correo:</label>
+                    <input type="email" id="correo" name="correo">
+                </p>
+
+                <p>
+                    <label for="fecha">Fecha de contacto:</label>
+                    <input type="date" id="fecha" name="fecha">
+                </p>
+
+                <p>
+                    <label for="semestre">Semestre:</label>
+                    <select id="semestre" name="semestre">
+                        <option value="">Seleccione</option>
+                        <option value="1">Primer semestre</option>
+                        <option value="2">Segundo semestre</option>
+                        <option value="3">Tercer semestre</option>
+                        <option value="4">Cuarto semestre</option>
+                        <option value="5">Quinto semestre</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="edad">Edad:</label>
+                    <input type="number" id="edad" name="edad" min="1" max="100">
+                </p>
+
+                <p>
+                    <label for="interes">Nivel de interés por programación:</label>
+                    <input type="range" id="interes" name="interes" min="0" max="10" value="7">
+                </p>
+
+                <fieldset>
+                    <legend>Modalidad preferida</legend>
+                    <label><input type="radio" name="modalidad" value="presencial"> Presencial</label>
+                    <label><input type="radio" name="modalidad" value="virtual"> Virtual</label>
+                </fieldset>
+
+                <p>
+                    <label>
+                        <input type="checkbox" name="noticias">
+                        Deseo recibir información académica.
+                    </label>
+                </p>
+
+                <p>
+                    <label for="comentario">Comentario:</label><br>
+                    <textarea id="comentario" name="comentario" rows="5" cols="40"></textarea>
+                </p>
+
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpiar</button>
+            </fieldset>
+        </form>
+
+        <p><strong>Nota:</strong> el formulario no almacena información porque el taller no requiere un backend.</p>
+    </section>
+
+    <hr>
+
+    <article>
+        <h2>Mi aprendizaje</h2>
+        <p>HTML permite organizar una página mediante elementos que describen el significado y la estructura del contenido.</p>
+        <time datetime="2026-09-07">7 de septiembre de 2026</time>
+    </article>
+
+    <aside>
+        <h2>Consejo</h2>
+        <p>Practicar las etiquetas HTML y comprender para qué sirve cada una facilita el aprendizaje del desarrollo web.</p>
+    </aside>
+
+    <details>
+        <summary>¿Qué estoy aprendiendo?</summary>
+        <p>Estoy aprendiendo la estructura básica de documentos HTML y el uso de elementos semánticos.</p>
+    </details>
+
+    <h2>Ejemplo de código</h2>
+    <pre><code>&lt;h1&gt;Hola mundo&lt;/h1&gt;</code></pre>
+    <p>Para guardar el archivo puedo utilizar <kbd>Ctrl</kbd> + <kbd>S</kbd>.</p>
+
+    <p>Progreso del taller:</p>
+    <progress value="80" max="100">80 %</progress>
+
+    <p>Nivel de dominio de HTML:</p>
+    <meter min="0" max="10" value="7">7 de 10</meter>
+</main>
+
+<footer>
+    <p>Taller realizado para la asignatura Fundamentos WEB.</p>
+    <address>UNICAMACHO</address>
+</footer>
+
+</body>
+</html>
