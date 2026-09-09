@@ -84,11 +84,8 @@ Se observa principalmente en la pestaña o título de la ventana del navegador.
 
 ## Multimedia
 
-Coloque dentro de `multimedia/` sus archivos autorizados:
-
 - `imagen1.jpg`
 - `imagen2.jpg`
 - `audio.mp3`
 - `video.mp4`
 
-No se deben inventar archivos multimedia que no estén disponibles. Los nombres deben coincidir exactamente con los utilizados en `index.html`.
